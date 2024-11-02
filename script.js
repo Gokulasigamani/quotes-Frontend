@@ -9,7 +9,7 @@ const colorThemes = [
 
 async function getQuote() {
     try {
-        const response = await fetch('https://quotes-backend-acgr.onrender.com/api/quote');
+        const response = await fetch('https://quotes-backend-zuhm.onrender.com/api/quote');
         const data = await response.json();
 
         const quoteText = document.getElementById('quote-text');
